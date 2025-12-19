@@ -194,7 +194,7 @@ Moussourisgpt-PythonCli/
 La configuration se trouve dans `frontend/config.py` :
 
 ```python
-API_BASE = "https://apimsrgpt.sandbox.200bounty.com"
+API_BASE = "https://apimsrgpt.sandbox.xxxxxxx.com"
 TOKEN_FILE = ".token"
 ```
 
