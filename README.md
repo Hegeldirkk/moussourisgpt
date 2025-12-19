@@ -28,11 +28,11 @@ Interface en ligne de commande (CLI) sécurisée pour MoussourisGPT - Un outil d
 ### 1. Cloner le dépôt
 
 ```bash
-git clone <url-du-repo>
-cd Moussourisgpt-PythonCli
+git clone https://github.com/Hegeldirkk/moussourisgpt.git
+cd moussourisgpt  
 ```
 
-### 2. Créer un environnement virtuel (recommandé)
+### 2. Créer un environnement virtuel (recommandé) -
 
 ```bash
 python3 -m venv .
