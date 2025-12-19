@@ -1,0 +1,168 @@
+# ========================================
+# MoussourisGPT CLI - .gitignore
+# ========================================
+
+# ===== FICHIERS SENSIBLES =====
+# Token d'authentification (TRÈS IMPORTANT)
+.token
+*.token
+frontend/.token
+testSc*
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+
+# Fichiers de configuration sensibles
+config.local.py
+secrets.py
+credentials.json
+
+# ===== PYTHON =====
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+bin/
+include/
+pyvenv.cfg
+
+# ===== LOGS =====
+*.log
+logs/
+*.log.*
+
+# ===== SYSTÈMES D'EXPLOITATION =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===== IDE / ÉDITEURS =====
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.sw?
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ===== AUTRES =====
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+*.temp
+
+# Node modules (si présent)
+node_modules/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# ===== FICHIERS TEMPORAIRES =====
+tmp/
+temp/
+*.cache
+
+# ===== DOCUMENTATION TEMPORAIRE =====
+# Garder les .md importants, ignorer les temporaires
+*draft*.md
+*temp*.md
+*TODO*.md
+
+# ===== FICHIERS À GARDER =====
+# (Liste négative pour s'assurer que certains fichiers sont toujours inclus)
+!README.md
+!LICENSE
+!requirements.txt
+!CHANGELOG.md
+!.gitignore
+!msrgpt
+!frontend/*.py
+!frontend/requirements.txt
+!frontend/CHANGELOG.md
