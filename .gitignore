@@ -8,7 +8,7 @@
 *.token
 frontend/.token
 testSc*
-
+generate*
 # Variables d'environnement
 .env
 .env.local
